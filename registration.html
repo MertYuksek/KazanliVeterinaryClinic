@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Registration</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<nav>
+
+    <div class="container-fluid text-center Nav_div1">
+        <div class="row">
+            <div class="col">
+                <img class="float-right img-fluid" src="images/logo3.jpg" alt="Logo" width="120px" height="120px">
+            </div>
+            <div class="col pt-5"  style="color: orange">
+                <p class="float-left">KAZANLI VETERINARY CLINIC</p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+        <a class="navbar-brand" href="registration.html">REGISTER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">HOMEPAGE</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">OUR SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="team.html">OUR TEAM</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactme.html">CONTACT US</a></li>
+            </ul>
+
+            <form class="form-inline" action="https://www.google.com/search" method="GET" target="_blank">
+                <input name="q" type="text" placeholder="Search" class="form-control mr-sm-2 my-2">
+                <input type="submit" value="Search" class="btn btn-secondary">
+            </form>
+
+        </div>
+
+    </nav>
+
+</nav>
+
+<section class="SectionRegister">
+
+        <h2>Sign Up</h2>
+
+        <form action="thanks.html" method="post" class="p-5" onsubmit="return validate()">
+
+            <div class="form-group" >
+                <label for="name">Name: </label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="surname">Surname: </label>
+                <input type="text" class="form-control" id="surname" placeholder="Enter Surname" name="surname">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="pswd">Password: </label>
+                <input type="password" class="form-control" id="pswd" placeholder="Enter Password" name="pswd">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail: </label>
+                <input type="text" class="form-control" id="email" placeholder="E-mail" name="email">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="tel">Telephone: </label>
+                <input type="text" class="form-control" id="tel" placeholder="Phone Number 11 Character">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="birth">Date Of Birth: </label>
+                <input id="birth" class="form-control" type="text" placeholder="DD-MM-YYYY">
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="form-group">
+                <label>Gender: </label><br>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="radio1">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Male" checked>Male
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="radio2">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Female">Female
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Upload Your Photo: </label>
+                <input type="file" class="form-control" name="photo" accept="image/*">
+            </div>
+
+            <div class="form-group">
+                <label>Upload Your Photo: </label>
+                <input type="file" class="form-control" name="photo" accept="image/*">
+            </div>
+
+            <div class="form-group">
+                <label for="aboutme" class="aboutme">About Me: </label>
+                <textarea id="aboutme" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="int">Mark Your Interests: </label><br>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check1">
+                        <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="Vehicles">Vehicles
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="education" value="Education">Education
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check3">
+                        <input type="checkbox" class="form-check-input" id="check3" name="gaming" value="Gaming">Gaming
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check4">
+                        <input type="checkbox" class="form-check-input" id="check4" name="politics" value="Politics">Politics
+                    </label>
+                </div><br>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check5">
+                        <input type="checkbox" class="form-check-input" id="check5" name="science" value="Science">Science
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check6" for="check6">
+                        <input type="checkbox" class="form-check-input" id="check6" name="comedy" value="Comedy">Comedy
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check7">
+                        <input type="checkbox" class="form-check-input" id="check7" name="sleeping" value="sleep">Sleeping
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="check8">
+                        <input type="checkbox" class="form-check-input" id="check8" name="environment" value="envr">Environment
+                    </label>
+                </div>
+            </div>
+
+            <div class="bot container-fluid justify-content-center">
+                <input type="submit" name="submit" value="Submit"><br>
+                <input type="reset" value="Reset"><br>
+                <a href="index.html"><img src="images/home.png" alt="Homepage"></a>
+            </div>
+
+    </form>
+
+
+</section>
+
+<footer>
+
+    <div class="Footer_div1">
+
+        <a href="https://www.instagram.com/" title="Instegram" target="_blank"><img class="socialmedia" src="images/ins.png" alt="Instegram Icon"></a>
+        <a href="https://www.youtube.com/" title="YouTube" target="_blank"><img class="socialmedia" src="images/you.png" alt="YouTube Icon"></a>
+        <a href="https://twitter.com/" title="Twitter" target="_blank"><img class="socialmedia" src="images/twi.png" alt="Twitter Icon"></a>
+
+    </div>
+
+    <div class="row Footer_div2" style="margin:0px;">
+
+        <div class="col-md-3 text-center Footer_div2_1">
+            <h3>Kazanli Veterinary Clinic</h3>
+            <address>Eceler Sokak No:16
+                Florya, Bakırköy, İstanbul
+                (While going from Galatasaray Sports Facilities from Flyinn AVM, we are on the 4th street on the left.)
+                Telefon: 0 (212) 663 91 42
+                Telefon: 0 (212) 663 91 43</address>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_2">
+            <h3>Hours of Operation</h3>
+            <pre>
+Mon 8:30am - 8:00pm
+Tue 8:30am - 8:00pm
+Wed 8:30am - 8:00pm
+Thu 8:30am - 8:00pm
+Fri 8:30am - 8:00pm
+Sat 8:30am - 5:00pm
+Sun 8:30am - 5:00pm
+            </pre>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_3">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">HOMPAGE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="services.html">OUR SERVİCES</a></li>
+                <li><a href="team.html">OUR TEAM</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+                <li><a href="registration.html">REGİSTER</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_4">
+            <h3>Emergency Numbers</h3>
+            <ul>
+                <li>05307896109</li>
+                <li>05307896417</li>
+                <li>05307896109</li>
+                <li>05307896417</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="Footer_div3">
+
+        <span>© 2020 The content on this website is owned by Mert Yüksek . Do not copy any content (including images) without consent</span>
+
+    </div>
+
+</footer>
+
+<script>
+
+function validate() {
+
+    var nameText = document.getElementById('name');
+    if(!nameValidate(nameText.value)){
+        nameText.focus();
+        return false;
+    }
+
+    var surnameText = document.getElementById('surname');
+    if(!surnameValidate(surnameText.value)){
+        surnameText.focus();
+        return false;
+    }
+
+    var pswdText = document.getElementById('pswd');
+    if(!passwordValidate(pswdText.value)){
+        pswdText.focus();
+        return false;
+    }
+
+    var email = document.getElementById('email');
+    if(!emailValidate(email.value)){
+        email.focus();
+        return false;
+    }
+
+    var tel = document.getElementById('tel');
+    if(!telValidate(tel.value)){
+        tel.focus();
+        return false;
+    }
+
+    var date = document.getElementById('birth');
+    if(!dateValidate(date.value)){
+        date.focus();
+        return false;
+    }
+
+    alert('Registriation is success!')
+    return true;
+}
+
+function nameValidate(str) {
+
+    var str = str.trim();
+
+    if(str == ""){
+        alert('Name must be filled out.');
+        return false;
+    }
+    else if(str.match(/[^a-z ]/gi)!= null){
+        alert('Name is invalid please check that.');
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function surnameValidate(str) {
+
+    var str = str.trim();
+
+    if(str == ""){
+        alert('Surname must be filled out.');
+        return false;
+    }
+    else if(str.match(/[^a-z]/gi)!= null){
+        alert('Surname is invalid please check that.');
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function passwordValidate(str) {
+
+    str = str.trim();
+    if(str == ""){
+        alert('Password must be filled out.');
+        return false;
+    }
+    else if(str.length<8 || str.length>16){
+        alert('Password should be at least 8 and at most 16 characters.');
+        return false;
+    }
+    else if(str.match(/[A-Z]/g) == null){
+        alert('Password should contain at least one uppercase letter.');
+        return false;
+    }
+    else if(str.match(/[0-9]/g) == null){
+        alert('Password should contain at least one digit.')
+        return false;
+    }
+    else if(str.match(/[!@\[\]#$%^&*(),.?":{}|_\-<>]/g) == null){
+        alert('Password should contain at least one special character.')
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function emailValidate(str) {
+    str = str.trim();
+    var format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(str.match(format) == null){
+        alert('E-mail is invalid please check that.');
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function telValidate(str) {
+
+    str = str.trim();
+
+    if(str == ""){
+        alert('Telephone number must be filled out.');
+        return false;
+    }
+    else if(str.match(/\D/g) != null){
+        alert('Telephone number is invalid please check that.');
+        return false;
+    }
+    else if(str.length!=11){
+      alert('Telephone number must be 11 digits.');
+      return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function dateValidate(str) {
+
+    str = str.trim();
+    var ary = str.split("-");
+
+    if(str == ""){
+        alert('Date must be filled out.');
+        return false;
+    }
+    else if(str.match(/^([0-2][0-9]|(3)[0-1])(\-)(((0)[0-9])|((1)[0-2]))(\-)\d{4}$/i) == null){
+        alert('Date is invalid please check that.')
+        return false;
+    }
+     else if((Number(ary[2])<1930) || (Number(ary[2])>2020)){
+        alert('Date is invalid please check that.')
+        return false;
+    }
+
+    return true;
+}
+
+</script>
+
+</body>
+</html>

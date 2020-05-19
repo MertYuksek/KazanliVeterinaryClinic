@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<nav>
+
+    <div class="container-fluid text-center Nav_div1">
+        <div class="row">
+            <div class="col">
+                <img class="float-right img-fluid" src="images/logo3.jpg" alt="Logo" width="120px" height="120px">
+            </div>
+            <div class="col pt-5"  style="color: orange">
+                <p class="float-left">KAZANLİ VETERİNARY CLİNİC</p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+        <a class="navbar-brand" href="contactme.html">CONTACT US</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">HOMEPAGE</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">OUR SERVİCES</a></li>
+                <li class="nav-item"><a class="nav-link" href="team.html">OUR TEAM</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="registration.html">REGİSTER</a></li>
+            </ul>
+
+            <form class="form-inline" action="https://www.google.com/search" method="GET" target="_blank">
+                <input name="q" type="text" placeholder="Search" class="form-control mr-sm-2 my-2">
+                <input type="submit" value="Search" class="btn btn-secondary">
+            </form>
+
+        </div>
+
+    </nav>
+
+</nav>
+
+<section class="SectionContactme">
+
+    <h2>Contact Us</h2>
+
+    <div>
+
+        <div class="row" style="margin: 0px; padding-bottom: 20px">
+
+            <div class="col-sm-6" >
+
+                <form action="response.html" method="post" class="was-validated">
+
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name" name="pswd" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname">Surname: </label>
+                        <input type="text" class="form-control" id="surname" placeholder="Enter Surname" name="surname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail: </label>
+                        <input type="email" class="form-control" id="email" placeholder="E-mail" name="email" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel">Telephone: </label>
+                        <input type="tel" class="form-control" id="tel" placeholder="Phone Number 11 Character" pattern="[0-9]{11}" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue">Issue: </label>
+                        <select id="issue" class="form-control" required>
+                            <option>Dentistry</option>
+                            <option>Vaccinations</option>
+                            <option>Radiography</option>
+                            <option>Allergies</option>
+                            <option>Spay & Neuter</option>
+                            <option>Orthopedic Surgery</option>
+                            <option>Cardiology</option>
+                            <option>Dermatology</option>
+                            <option>Rehabilitation</option>
+                            <option>Physical Therapy</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea id="message" class="form-control" ></textarea>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <button>Send</button>
+
+                </form>
+
+            </div>
+
+            <div class="col-sm-6">
+                <div class="Contact_Info">
+
+                    <p>You can contact with;</p>
+
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/ins.png" alt="Instegram Icon"></a>
+                    <a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank"><img src="images/g.png" alt="Google+ Icon"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twi.png" alt="Twitter Icon"></a>
+                    <a href="mailto:someone@example.com" target="_top"><img src="images/mail.png" alt="Mail Icon"></a><br>
+                    <a href="index.html"><img src="images/home.png" alt="Home Icon"></a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="Footer_div1">
+
+        <a href="https://www.instagram.com/" title="Instegram" target="_blank"><img class="socialmedia" src="images/ins.png" alt="Instegram Icon"></a>
+        <a href="https://www.youtube.com/" title="YouTube" target="_blank"><img class="socialmedia" src="images/you.png" alt="YouTube Icon"></a>
+        <a href="https://twitter.com/" title="Twitter" target="_blank"><img class="socialmedia" src="images/twi.png" alt="Twitter Icon"></a>
+
+    </div>
+
+    <div class="row Footer_div2" style="margin:0px;">
+
+        <div class="col-md-3 text-center Footer_div2_1">
+            <h3>Kazanli Veterinary Clinic</h3>
+            <address>Eceler Sokak No:16
+                Florya, Bakırköy, İstanbul
+                (While going from Galatasaray Sports Facilities from Flyinn AVM, we are on the 4th street on the left.)
+                Telefon: 0 (212) 663 91 42
+                Telefon: 0 (212) 663 91 43</address>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_2">
+            <h3>Hours of Operation</h3>
+            <pre>
+Mon 8:30am - 8:00pm
+Tue 8:30am - 8:00pm
+Wed 8:30am - 8:00pm
+Thu 8:30am - 8:00pm
+Fri 8:30am - 8:00pm
+Sat 8:30am - 5:00pm
+Sun 8:30am - 5:00pm
+            </pre>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_3">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">HOMPAGE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="services.html">OUR SERVİCES</a></li>
+                <li><a href="team.html">OUR TEAM</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+                <li><a href="registration.html">REGİSTER</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_4">
+            <h3>Emergency Numbers</h3>
+            <ul>
+                <li>05307896109</li>
+                <li>05307896417</li>
+                <li>05307896109</li>
+                <li>05307896417</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="Footer_div3">
+
+        <span>© 2020 The content on this website is owned by Mert Yüksek . Do not copy any content (including images) without consent</span>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

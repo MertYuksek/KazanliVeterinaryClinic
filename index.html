@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<nav>
+
+    <div class="container-fluid text-center Nav_div1">
+        <div class="row">
+            <div class="col">
+                <img class="float-right img-fluid" src="images/logo3.jpg" alt="Logo" width="120px" height="120px">
+            </div>
+            <div class="col pt-5"  style="color: orange">
+                <p class="float-left">KAZANLI VETERINARY CLINIC</p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+        <a class="navbar-brand" href="index.html">HOMEPAGE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">OUR SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="team.html">OUR TEAM</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactme.html">CONTACT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="registration.html">REGISTER</a></li>
+            </ul>
+
+            <form class="form-inline" action="https://www.google.com/search" method="GET" target="_blank">
+                <input name="q" type="text" placeholder="Search" class="form-control mr-sm-2 my-2">
+                <input type="submit" value="Search" class="btn btn-secondary">
+            </form>
+
+        </div>
+
+    </nav>
+
+</nav>
+
+<section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div style="padding: 0px" class="col-lg-9" >
+
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="images/welcome.png" alt="err" width="100%" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/nurse.jpg" alt="err" width="100%" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="images/nurse2.jpg" alt="err" width="100%" height="500">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+            </div>
+            <div class=" Section_div1_2 col-lg-3">
+                <details open class="det1">
+                    <summary>Login</summary>
+
+                    <form action="index.html" method="post">
+
+                        <label>Username</label><br>
+                        <input type="text" name="text1" required><br>
+                        <label>Password</label><br>
+                        <input type="password" name="text2" required><br>
+                        <input type="submit" name="sub" value="Login" style="margin-top: 10px; margin-bottom: 10px">
+
+                    </form>
+
+                    <form action="registration.html" method="post">
+                        <input type="submit" value="New User">
+                    </form>
+
+                </details>
+
+                <details class="det2">
+                    <summary>Emergency Aid number</summary>
+                    <ul>
+                        <li>Dr. Joseph Wooden: 05307896109</li>
+                        <li>Dr. Katie Welch: 05307896417</li>
+                        <li>Dr. Alfonso Monopak: 05307896109</li>
+                        <li>Dr. Frankie Card: 05307896417</li>
+                    </ul>
+                </details>
+
+                <details class="det3" >
+                    <summary>Make An Appointment</summary>
+                    <form action="index.html" method="POST">
+                        <label>Username: </label>
+                        <input type="text" name="text1" required><br>
+
+                        <label>Id Number: </label>
+                        <input type="text" name="text1" required><br>
+
+
+                        <label>Date: </label>
+                        <input type="date" required><br>
+                        <input type="button" value="Take">
+                    </form>
+                </details>
+
+                <p class="pnew"><a href="contactme.html">Contact Us</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid Section_div2">
+        <h2>Checkups, In-House Surgical & Dental Treatment, Ultrasound Testing, Vaccinations, Boarding </h2>
+        <p>We offer checkups, veterinary surgery, veterinary dental treatment,
+            in-house testing, digital radiology and non-invasive ultrasound
+            diagnostics. Dr. Mustafa Karabck is an ultrasonographer with over 23 years
+            experience. We also have working relationships with key university
+            Veterinary Diagnostic Labs around the country. Kazanli Veterinary Hospital
+            will help your pet achieve a higher quality of life.</p>
+    </div>
+
+    <div class="container-fluid Section_div3">
+
+        <div class="row" >
+            <div class="d-flex col-lg-5 justify-content-around mt-3" >
+
+                <figure>
+                    <a href="services.html#h1"><img class="img-fluid" src="images/cats.jpg" alt="Cat Picture"></a>
+                    <figcaption>General Wellness-></figcaption>
+                </figure>
+
+                <figure>
+                    <a href="services.html#h2"><img class="img-fluid" src="images/diag.jpg" alt="Dog Picture"></a>
+                    <figcaption>Diagnostic Services-></figcaption>
+                </figure>
+
+            </div>
+            <div class="d-flex col-lg-5 justify-content-around mt-3" >
+
+                <figure>
+                    <a href="services.html#h3"><img class="img-fluid" src="images/check.jpg" alt="Cat Picture"></a>
+                    <figcaption>Surgery Services-></figcaption>
+                </figure>
+
+                <figure>
+                    <a href="services.html#h4"><img class="img-fluid" src="images/dentaldog.jpg" alt="Dog Picture"></a>
+                    <figcaption>Special Health Services-></figcaption>
+                </figure>
+
+            </div>
+            <div class="d-flex col-lg-2 justify-content-around mt-3" >
+                <figure>
+                    <a href="services.html#h5"><img class="img-fluid" src="images/catspay.jpg" alt="Cat Picture"></a>
+                    <figcaption>Therapy Services-></figcaption>
+                </figure>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid Section_div4">
+
+        <div class="row">
+            <div class="col-md-7 Section_div4_1">
+                <h2>A Kazanli Institution Since 1935</h2>
+                <p>Since 1935, Kazanli Veterinary Hospital has been providing veterinary care to Mersin and the surrounding area.
+                    We are conviently located on York Road just north of Mersin Circle and next to the Mersin Diner.
+                    Kazanli Veterinary Hospital is a full-service small animal hospital whose mission is to provide the
+                    highest standard of veterinary care for pets. We genuinely care about your pets and all animals! Our
+                    staff is passionate about veterinary medicine and is extremely well trained. We strive to provide professional,
+                    affordable, and advanced veterinary services. At Pruyn Veterinary Hospital, you will walk into a welcoming, and
+                    friendly environment every visit, so that the experience is as comfortable as possible for you and your pet.
+                </p>
+            </div>
+            <div class="col-md-5 Section_div4_2">
+                <img class="img-fluid" src="images/vet.jpg" alt="err" title="Kazanli Veterinary Clinic">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid Section_div5">
+
+        <h2>Client Reviews</h2>
+
+        <div class="row m-3">
+            <div class="col-lg-4 p-3 mt-3 mb-4">
+                <div class="Section_div5_1">
+                    <p>Great experience! Took my puppy Bailey to get spayed and the staff was great with updates
+                        and phone calls to check on her. Kayla has helped with all of my fur babies and is amazing
+                        in her compassion for them. Thank you!
+                    </p>
+                    <p class="p1">Emily_33yksk: </p>
+                    <img src="images/5yıldız.png" alt="Yıldız Png">
+                </div>
+            </div>
+
+            <div class="col-lg-4 p-3 mt-3 mb-4">
+                <div class="Section_div5_1">
+                    <p>Great staff. I have visited Prynn Vet for 18 years with Minot as my vet. He is an excellent
+                        vet and very caring. Currently I am going to Dr. Anderson who is very thorough and sensitive
+                        with our 18 year old Chihuahua.
+                    </p>
+                    <p class="p1">Mstf_33Kbcuk: </p>
+                    <img src="images/5yıldız.png" alt="Yıldız Png">
+                </div>
+            </div>
+
+            <div class="col-lg-4 p-3 mt-3 mb-4">
+                <div class="Section_div5_1">
+                    <p>I can't even count the number of years we've taken our animals to Pruyn Hospital. Adjectives
+                        that come to mind: thorough, knowledgeable, caring, conscientious and dedicated. We and our
+                        large family of animals appreciate you so much!
+                    </p>
+                    <p class="p1">Rhbp_44Lk: </p>
+                    <img src="images/5yıldız.png" alt="Yıldız Png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="Footer_div1">
+
+        <a href="https://www.instagram.com/" title="Instegram" target="_blank"><img class="socialmedia" src="images/ins.png" alt="Instegram Icon"></a>
+        <a href="https://www.youtube.com/" title="YouTube" target="_blank"><img class="socialmedia" src="images/you.png" alt="YouTube Icon"></a>
+        <a href="https://twitter.com/" title="Twitter" target="_blank"><img class="socialmedia" src="images/twi.png" alt="Twitter Icon"></a>
+
+    </div>
+
+    <div class="row Footer_div2" style="margin:0px;">
+
+        <div class="col-md-3 text-center Footer_div2_1">
+            <h3>Kazanli Veterinary Clinic</h3>
+            <address>Eceler Sokak No:16
+                Florya, Bakırköy, İstanbul
+                (While going from Galatasaray Sports Facilities from Flyinn AVM, we are on the 4th street on the left.)
+                Telefon: 0 (212) 663 91 42
+                Telefon: 0 (212) 663 91 43</address>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_2">
+            <h3>Hours of Operation</h3>
+            <pre>
+Mon 8:30am - 8:00pm
+Tue 8:30am - 8:00pm
+Wed 8:30am - 8:00pm
+Thu 8:30am - 8:00pm
+Fri 8:30am - 8:00pm
+Sat 8:30am - 5:00pm
+Sun 8:30am - 5:00pm
+            </pre>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_3">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">HOMPAGE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="services.html">OUR SERVİCES</a></li>
+                <li><a href="team.html">OUR TEAM</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+                <li><a href="registration.html">REGİSTER</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 text-center Footer_div2_4">
+            <h3>Emergency Numbers</h3>
+            <ul>
+                <li>05307896109</li>
+                <li>05307896417</li>
+                <li>05307896109</li>
+                <li>05307896417</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="Footer_div3">
+
+        <span>© 2020 The content on this website is owned by Mert Yüksek . Do not copy any content (including images) without consent</span>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

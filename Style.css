@@ -1,0 +1,707 @@
+*{
+    box-sizing: border-box; /*Ne girersen o 10px girdin border iç padding dahil.*/
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav div.Nav_div1{
+    height: 120px;
+    overflow: hidden;
+}
+
+nav div.Nav_div1 div.Nav_div1_1{
+    float: left;
+    width: 30%;
+}
+
+nav div.Nav_div1 div.Nav_div1_2{
+    float: left;
+    width: 40%;
+    padding-left: 150px;
+}
+
+nav div.Nav_div1 div.Nav_div1_1 img.logo{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+nav div.Nav_div1 div.Nav_div1_1 p{
+    margin-top: 50px;
+    color: orange;
+    float: left;
+    font-family: Calibri;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+nav div.Nav_div1 div.Nav_div1_2 img.society{
+    width: 250px;
+    height: 100px;
+}
+
+nav div.Nav_div1 div.Nav_div1_3 img.socialmedia{
+    width: 150px;
+    height: 60px;
+}
+
+nav div.Nav_div2{
+    overflow: hidden;
+    background-color: #fcbb77;
+    height: 53px;
+}
+
+nav div.Nav_div2_1 ul{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav div.Nav_div2_1 li{
+    float: left;
+    list-style-type: none;
+}
+
+nav div.Nav_div2_1 li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav div.Nav_div2_1 a:hover{
+    background-color: #ff8f65;
+    color: white;
+}
+
+nav div.Nav_div2_1 .current{
+    background-color: #468b72;
+    color: white;
+    font-size: larger;
+}
+
+nav div.Nav_div2_1{
+    float: left;
+    width: 80%;
+}
+
+nav div.Nav_div2_2{
+    float: left;
+    width: 20%;
+    padding: 14px;
+}
+
+/*---------------Section Part1-----------------*/
+
+section div.Section_div1{
+    padding-top: 1px;
+}
+
+section div.Section_div1_2{
+    background-color: #fcbb77;
+    text-align: center;
+}
+
+section div.Section_div1_2 p.pnew{
+    font-family: Calibri;
+    font-size: x-large;
+}
+
+section div.Section_div1_2 p.pnew a{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+section div.Section_div1_2 details.det1{
+    font-family: Calibri;
+    font-size: 22px;
+    color: #538b85;
+}
+
+section div.Section_div1_2 details summary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #538b85;
+    font-family: Aharoni;
+}
+
+section div.Section_div1_2 details.det2 summary{
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+section div.Section_div1_2 details.det2 ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: white;
+}
+
+section div.Section_div1_2 details.det3{
+    color: #538b85;
+}
+
+section div.Section_div1_2 details.det3 input{
+    width: 120px;
+    height: 30px;
+}
+
+section div.Section_div1_2 details.det3 summary{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*---------------Section Part2-----------------*/
+
+section div.Section_div2{
+    background-color: darkslategray;
+}
+
+section div.Section_div2 h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: x-large;
+    color: #ff9d68;
+}
+
+section div.Section_div2 p{
+    padding-bottom: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+    font-family: Calibri;
+    font-size: large;
+    color: white;
+}
+
+section div.Section_div3{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-color: darkslategray;
+}
+
+section div.Section_div3 figure{
+    border: 5px outset #ff9d68;
+    background-color: white;
+    box-shadow: 7px 10px #ff9d68;
+    width: 175px;
+}
+
+section div.Section_div3 figure img{
+    width: 150px;
+    height: 100px;
+}
+
+section div.Section_div3 figure figcaption{
+    font-family: Calibri;
+    color: darkslategray;
+    font-size: medium;
+}
+
+/*---------------Section Part3-----------------*/
+
+section div.Section_div4{
+    background-color: darkkhaki;
+}
+
+section div.Section_div4_1{
+    padding: 40px;
+    background-color: darkkhaki;
+}
+
+section div.Section_div4_1 h2{
+    margin: 0px;
+    font-size: x-large;
+    color: #518b49;
+}
+
+section div.Section_div4_1 p{
+    color: #3a444f;
+}
+
+section div.Section_div4_2{
+    padding: 40px;
+    text-align: center;
+}
+
+section div.Section_div4_2 img{
+    width: 500px;
+    height: 400px;
+}
+
+/*---------------Section Part4-----------------*/
+
+section div.Section_div5 h2{
+    text-align: center;
+    color: darkslategray;
+    font-family: "Bookman Old Style";
+    font-size: xx-large;
+}
+
+section div.Section_div5_1{
+    border: 5px outset #ff9d68;
+    box-shadow: 7px 10px #ff9d68;
+}
+
+section div.Section_div5_1 img{
+    position: relative;
+    top: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+/*---------------Footer-----------------*/
+
+footer{
+    background-color: #484f3c;
+}
+
+footer div.Footer_div1{
+    padding: 30px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+footer div.Footer_div1 img{
+    width: 30px;
+    height: 30px;
+}
+
+footer div.Footer_div2 h3{
+    color: black;
+}
+
+footer div.Footer_div2 div.Footer_div2_1,div.Footer_div2_2,div.Footer_div2_3,div.Footer_div2_4 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+footer div.Footer_div2 div.Footer_div2_4{
+    border: none;
+}
+
+footer div.Footer_div2 h3{
+    font-size: x-large;
+}
+
+footer div.Footer_div2_1 address{
+    font-family: Calibri;
+    font-size: large;
+}
+
+footer div.Footer_div2_2 pre{
+    font-family: Calibri;
+    font-size: large;
+}
+
+footer div.Footer_div2_3 ul, div.Footer_div2_4 ul{
+     padding: 0px;
+     line-height: 30px;
+     font-family: Calibri;
+     font-size: large;
+ }
+
+footer div.Footer_div2_3 li , div.Footer_div2_4 li{
+    list-style-type: none;
+}
+
+footer div.Footer_div2_3 a{
+    color: black;
+    text-decoration: none;
+}
+
+footer div.Footer_div3{
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+/*---------------Blog-----------------*/
+/*------------------------------------*/
+
+section h1.BlogSection_h1{
+    margin: 30px;
+    font-family: Calibri;
+    font-size: xx-large;
+    text-align: center;
+    color: #468b72;
+}
+
+
+section div.BlogSection_div1 figure, div.BlogSection_div2 figure{
+    border: 5px outset #ff9d68;
+    box-shadow: 7px 10px #ff9d68;
+}
+
+section div.BlogSection_div1 figure:hover, div.BlogSection_div2 figure:hover{
+    border: 5px outset darkslategray;
+    box-shadow: 7px 10px darkslategray;
+    transform: scale(1.05) ;
+}
+
+section div.BlogSection_div1 figure img, div.BlogSection_div2 figure img{
+    height: 260px;
+}
+
+section div.BlogSection_div1 figure figcaption, div.BlogSection_div2 figure figcaption{
+    font-size: large;
+    color: darkslategray;
+}
+
+/*---------------Blog-Part2_1-----------------*/
+
+section.BlogSection div span{
+    color: darkslategray;
+    font-family: Calibri;
+    font-size: large;
+}
+
+section.BlogSection  h3{
+    color: #8b3e2c;
+    font-size: large;
+}
+
+section.BlogSection h4{
+    margin-bottom: 0px;
+    color: #78768b;
+    font-size: large;
+    font-family: Calibri;
+}
+
+section div.BlogSection_div2 ~ div{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    overflow: hidden;
+    border-bottom: 2px solid darkslategray;
+}
+
+section.BlogSection div.row iframe, section.BlogSection div.row img{
+    height: 300px;
+}
+
+/*---------------Service Page-----------------*/
+
+section div.Services_Section_div1~div{
+    width: 100%;
+}
+
+section div.Services_Section_div1~div>div{
+    color: darkslategray;
+    font-family: Calibri;
+    font-size: large;
+}
+
+section div.Services_Section_div1~div>div h3{
+    color: #8b3e2c;
+    font-size: x-large;
+}
+
+section div.Services_Section_div1~div>div>div{
+    width: 700px;
+}
+
+section div.Services_Section_div1~div>div figure{
+    margin: 0px;
+}
+
+section div.Services_Section_div1~div>div figure img{
+    height: 240px;
+}
+
+section div.Services_Section_div1~div>div iframe{
+    height: 240px;
+}
+
+section.Services_Section > div:nth-child(odd){
+    background-color: #677f61;
+}
+
+section div.Services_Section_div1{
+    background-color: white;
+}
+
+section div.Services_Section_div1~div h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: xx-large;
+    color: darkslategray;
+}
+
+/*---------------Team Page-----------------*/
+
+section.TeamSection div.TeamSection_div1 h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: xx-large;
+    color: darkslategray;
+}
+
+section.TeamSection div.TeamSection_div1 div{
+    width: 100%;
+    margin-top: 30px;
+}
+
+section.TeamSection div.TeamSection_div1 div figure{
+    border: 5px outset gray;
+    box-shadow: 7px 10px gray;
+    margin: 0px;
+}
+
+section.TeamSection div.TeamSection_div1 div figure img{
+    height: 250px;
+}
+
+section.TeamSection div.TeamSection_div1 div figure figcaption,div.TeamSection_div2 figure figcaption{
+    font-family: Calibri;
+    color: darkslategray;
+    font-size: x-large;
+}
+
+section.TeamSection div.TeamSection_div2 h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: xx-large;
+    color: darkslategray;
+}
+
+section.TeamSection div.TeamSection_div2{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+section.TeamSection div.TeamSection_div2 figure{
+    border: 5px outset gray;
+    box-shadow: 7px 10px gray;
+    margin: 0px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+section.TeamSection div.TeamSection_div2 figure img{
+    width: 100%;
+    height: 200px;
+}
+
+/*----------------Team Section 2. Part--------------*/
+
+section.TeamSection div.TeamSection_div3{
+    border-top: 1px solid black;
+}
+
+section.TeamSection div.TeamSection_div3>div{
+    border-bottom: 1px solid black;
+}
+
+section.TeamSection div.TeamSection_div3>div>div:nth-child(odd){
+    font-family: Calibri;
+    font-size: large;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+section.TeamSection div.TeamSection_div3>div>div:nth-child(even){
+    font-family: Calibri;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #484f3c;
+}
+
+section.TeamSection div.TeamSection_div3 img{
+    width: 30px;
+    height: 30px;
+}
+
+/*----------------Gallery Section--------------*/
+
+section.GallerySection{
+    border-top: 1px solid darkslategray;
+    background-color: darkslategray;
+}
+
+section.GallerySection h1{
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size: 55px;
+    color: black;
+}
+
+
+section.GallerySection>div{
+    padding-bottom: 40px;
+}
+
+section.GallerySection>div figure{
+    margin: 0px;
+    height: 350px;
+}
+
+section.GallerySection>div figure img{
+    height: 346px;
+}
+
+section.GallerySection>div iframe{
+    height: 350px;
+}
+
+section.GallerySection>div div.audioFrame{
+    text-align: center;
+    padding-top: 150px;
+    height: 350px;
+    width: 100%;
+}
+
+/*----------------Contact me--------------*/
+
+section.SectionContactme h2{
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: xx-large;
+    color: darkslategray;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.SectionContactme form{
+    padding-top: 60px;
+}
+
+section.SectionContactme form>div{
+    padding: 5px;
+}
+
+section.SectionContactme form label{
+    font-family: Calibri;
+    font-size: x-large;
+    color: darkslategray;
+    margin-top: 8px;
+}
+
+section.SectionContactme form button{
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+section.SectionContactme form input{
+    height: 33px;
+    margin-top: 5px;
+}
+
+section.SectionContactme form select{
+    height: 33px;
+    margin-top: 5px;
+}
+
+section.SectionContactme form textarea{
+    height: 100px;
+    margin-top: 5px;
+}
+
+div.Contact_Info{
+    text-align: center;
+    font-family: Calibri;
+    font-size: xx-large;
+    padding-bottom: 50px;
+    padding-top: 90px;
+}
+
+div.Contact_Info img{
+    width: 30px;
+    height: 30px;
+}
+
+/*----------------Register--------------*/
+
+section.SectionRegister h2{
+    text-align: center;
+    font-family: Calibri;
+    font-size: xx-large;
+    color: darkslategray;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+section.SectionRegister form{
+    padding-top: 40px;
+}
+
+section.SectionRegister label{
+    font-family: Calibri;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+section.SectionRegister div.bot{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+section.SectionRegister div.bot input{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+section.SectionRegister div.bot img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/*----------------Response------------------*/
+
+body.ResponseBody h1{
+    font-weight: normal;
+    font-family: Calibri;
+    color: darkslategray;
+    text-align: center;
+    margin-top: 100px;
+}
+
+body.ResponseBody table{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    width: 80%;
+}
+
+body.ResponseBody table, body.ResponseBody th ,body.ResponseBody td{
+    border: 2px solid darkslategray;
+    border-collapse: collapse;
+}
+
+body.ResponseBody th ,body.ResponseBody td{
+    padding: 15px;
+}
+
+body.ResponseBody #im{
+    width: 50px;
+    height: 50px;
+}
+
+body.ResponseBody div.dim{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
